@@ -18,14 +18,13 @@ body{ /* REGLA DE ESTILOS para la regla de body */
 
     font-size: 18px;
 }
+p{
+    margin: 10px;
+}
 img{
     display: block; /* elimina el espacio inferior por defecto de las imagenes*/
 }
-p{
-    margin-top: 0;
-    margin-bottom: 18px;
-    line-height: 1.5em;
-}
+
 h1, h2, h3, h4, h5, h6{
     margin: 0; /* asi se elimina el espacio por defecto de los encabezados*/
     line-height: 1.2em;
@@ -63,12 +62,9 @@ h4{
    display:flex ;
    flex-direction: column;
    width: 100%;
-
-   align-items: center; 
 }
 #main-header p,
 #main-header h1 {
-   
     padding-left: 70px;
 }
     #nosotros{  /* regla de estilos para un objeto por su id (empieza cpn #) solo se puede tener uno */
@@ -105,16 +101,15 @@ h4{
         /* padding es la distancia del borde al contenido*/
     }
     .phrase{
+
         font-size: 15px;
-  width: 100%;
- 
+         width: 100%;
+         align-items: center; 
+         height: 100%;
         background-color: var(--color5);
         
     }
-    .container{
-       
-    }
-
+ 
     .row{
         display: flex; /* acomoda a los objetos que contiene directamente uno al costado del otro */
         margin-left: -15px;
